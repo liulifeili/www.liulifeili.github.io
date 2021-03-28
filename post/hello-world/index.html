@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello World | Gridea</title>
-<link rel="shortcut icon" href="https://liulifeili.github.io/favicon.ico?v=1612616012632">
+<link rel="shortcut icon" href="https://liulifeili.github.io/favicon.ico?v=1616946636444">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://liulifeili.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Hello World | Gridea - Atom Feed" href="https://liulifeili.github.io/atom.xml">
@@ -23,7 +23,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://liulifeili.github.io">
-  <img class="avatar" src="https://liulifeili.github.io/images/avatar.png?v=1612616012632" alt="">
+  <img class="avatar" src="https://liulifeili.github.io/images/avatar.png?v=1616946636444" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -103,6 +103,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '558e298d9ca81cae218f',
+    clientSecret: 'd483e7cad29e168a840f961dfafb6b35aaff3e2c',
+    repo: 'liulifeili.github.io',
+    owner: 'liulifeili',
+    admin: ['liulifeili'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
