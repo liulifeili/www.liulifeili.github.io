@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liulifeili.github.io</id>
     <title>琉璃非离</title>
-    <updated>2021-03-29T15:10:14.021Z</updated>
+    <updated>2021-03-29T15:13:56.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liulifeili.github.io"/>
     <link rel="self" href="https://liulifeili.github.io/atom.xml"/>
@@ -17,16 +17,6 @@
         </link>
         <updated>2021-03-28T16:43:12.000Z</updated>
         <content type="html"><![CDATA[<p>这是我的第一篇博客，欢迎留言哈</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://liulifeili.github.io/post/hello-world/</id>
-        <link href="https://liulifeili.github.io/post/hello-world/">
-        </link>
-        <updated>2021-02-06T12:49:56.000Z</updated>
-        <content type="html"><![CDATA[<p>#你好世界#<br>
-这是我第一次在GitHub上写出自我博客欢迎各位~~🎉</p>
 ]]></content>
     </entry>
 </feed>
